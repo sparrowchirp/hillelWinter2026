@@ -1,24 +1,19 @@
 package com.app;
 
 public class Main {
-     public static void main(String[] args) {
-        System.out.println("My app for everybody");
-         System.out.println("My git app for Users 0.1!");
 
-         int a = 8;
-         int b = 2;
-         int c = add(a, b);
-         System.out.println(c);
-         int d = multiply(a, b);
-         System.out.println(d);
+    private static final double CONV_K = 2.20462;
+
+    public static void main(String[] args) {
+        System.out.println("Converter App.");
+
+         double kgs = 5;
+         double pounds = convKgsToPounds(kgs);
+         System.out.println("Result is " + pounds + " pounds");
      }
 
-    private static int add(int a, int b) {
-        return a + b;
-    }
-
-    private static int multiply(int a, int b) {
-        return a * b;
+    private static double convKgsToPounds(double kgs) {
+        return kgs * CONV_K;
     }
 }
 
