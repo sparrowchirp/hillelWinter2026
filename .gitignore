@@ -24,3 +24,5 @@ hs_err_pid*
 replay_pid*
 /.idea/
 /hw01 - Converter/hw01 - Converter.iml
+.idea/
+*.iml

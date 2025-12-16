@@ -10,8 +10,8 @@ public class ConverterKmMiles {
         double miles = 10;
         double km = 5;
 
-        System.out.println(miles + " miles is " + convMilesToKgs(miles));
-        System.out.println( km + " kilometers is " + convKmToMiles(km));
+        System.out.println(miles + " miles is " + convMilesToKgs(miles) + " kilometers.");
+        System.out.println( km + " kilometers is " + convKmToMiles(km) + " miles.");
     }
 
     private static double convMilesToKgs(double miles) {
