@@ -1,6 +1,6 @@
-package com.app;
+package com.app.hw01;
 
-public class Main {
+public class Converter {
 
     private static final double CONV_K = 2.20462;
 
