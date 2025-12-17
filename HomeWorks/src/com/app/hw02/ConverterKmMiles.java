@@ -7,7 +7,7 @@ public class ConverterKmMiles {
     static void main() {
         System.out.println("Converter version 2.0");
 
-        double miles = 10;
+        double miles = 8;
         double km = 5;
 
         System.out.println(miles + " miles is " + convMilesToKgs(miles) + " kilometers.");
