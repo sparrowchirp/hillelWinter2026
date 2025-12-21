@@ -8,6 +8,11 @@ public class ConverterTemperature {
         double temperatureFahrenheit = 200;
 
         System.out.println(temperatureCelsius + "°C is " + convToFahrenheit(temperatureCelsius));
+        System.out.println( temperatureFahrenheit + "°F is " + convToCelsius(temperatureFahrenheit));
+    }
+
+    private static double convToCelsius(double temperatureFahrenheit) {
+        return ((temperatureFahrenheit - 32) * 5 / 9);
     }
 
     private static double convToFahrenheit(double temperatureCelsius) {
